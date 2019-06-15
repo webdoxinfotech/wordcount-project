@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>COUNT</h1>
+	{{ fulltext }}
+<h2>Total Number of words are: {{ wordlist }}</h2>
+
+{% for key, value in worddictionary %}
+
+<dt>{{ key }}</dt>
+<dd>{{ value }}</dd>
+
+{% endfor %}
+
+</body>
+</html>
